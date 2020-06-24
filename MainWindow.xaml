@@ -1,0 +1,60 @@
+﻿<Window x:Class="WPF_Apps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Apps"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Border Padding="10">
+        <StackPanel>
+            <Label Content="Hotel Room Configuration"/>
+
+            <Label Content= "Name"/>
+            <TextBox x:Name ="NameText" Padding= "3 3" Margin="5 0" />
+
+            <Label Content= "Select a Room"/>
+            <Grid Margin="5 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="SingleRadioButton" Grid.Column= "0" Content ="Single"/>
+                <RadioButton x:Name="DoubleRadioButton" Grid.Column= "1" Content="Double"/>
+                <RadioButton x:Name="KingRadioButton" Grid.Column= "2" Content="King" Margin="0 0 0 10"/>
+            </Grid>
+
+            <Label Content ="Additional Options"/>
+            <CheckBox x:Name="BreakfastCheckbox"  Margin ="5 5 0 0" Content="Continental Breakfast"/>
+            <CheckBox x:Name="SmokingCheckbox" Margin ="5 10 0 5" Content="Smoking Room"/>
+            <CheckBox x:Name="BalconyCheckbox" Margin ="5 5 0 5" Content="Balcony"/>
+
+            <Label Content="Discount" Margin=" 0 5 0 0"/>
+            <ComboBox x:Name = "DiscountCombo" SelectedIndex = "0" Margin=" 5 0">
+                <ComboBoxItem Content="No Discount"/>
+                <ComboBoxItem Content="Student Discount"/>
+                <ComboBoxItem Content= "Military Discount"/>
+            </ComboBox>
+
+            <Grid Margin=" 0 25">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="ClearButton" Click="ClearButton_Click" Grid.Column= "0" Content = "Clear" Margin="15 0"/>
+                <Button x:Name ="SubmitButton" Click="SubmitButton_Click" Grid.Column ="1" Content= "Submit" Margin=" 15 0 "/>
+
+
+            </Grid>
+
+
+
+
+
+
+
+        </StackPanel>
+    </Border>
+
+</Window>

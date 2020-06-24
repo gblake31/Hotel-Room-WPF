@@ -1,0 +1,15 @@
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\bin\Debug\Hotel Room.exe.config
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\bin\Debug\Hotel Room.exe
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\bin\Debug\Hotel Room.pdb
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room.csprojAssemblyReference.cache
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\MainWindow.g.cs
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\App.g.cs
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room_MarkupCompile.cache
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room_MarkupCompile.lref
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\MainWindow.baml
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room.g.resources
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel_Room.Properties.Resources.resources
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room.csproj.GenerateResource.cache
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room.csproj.CoreCompileInputs.cache
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room.exe
+C:\Users\gblak\OneDrive\Documents\Programming\C#\Hotel Room\obj\Debug\Hotel Room.pdb
